@@ -1,8 +1,10 @@
 Bundle "AndrewRadev/splitjoin.vim"
 Bundle "Raimondi/delimitMate"
-Bundle "Shougo/neocomplete.git"
 Bundle "briandoll/change-inside-surroundings.vim.git"
+
+#Tabular http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
 Bundle "godlygeek/tabular"
+
 Bundle "tomtom/tcomment_vim.git"
 Bundle "vim-scripts/camelcasemotion.git"
 Bundle "vim-scripts/matchit.zip.git"
@@ -27,3 +29,7 @@ Bundle "vim-scripts/lastpos.vim"
 Bundle "vim-scripts/sudo.vim"
 Bundle "terryma/vim-multiple-cursors"
 Bundle "goldfeld/ctrlr.vim"
+
+# If we have luajit installed in vim, then switch these comments
+# Bundle "Shougo/neocomplete.git"
+Bundle "Shuogo/neocomplcache.vim.git"
